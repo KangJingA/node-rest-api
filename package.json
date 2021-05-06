@@ -1,0 +1,25 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "rest api using node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KangJingA/node-rest-api.git"
+  },
+  "author": "KangJingA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KangJingA/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/KangJingA/node-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.5.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  }
+}
